@@ -1,90 +1,98 @@
-main {
-    width: 320px;
-    
+body {
+  font-family: "Montserrat", sans-serif;
 }
-#Name {
-    font: caption;
-    font-size: 25px;
-    width: 75px;
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
 }
-#Age {
-    font-size: 10px;
-    font: caption;
-    width: 165px;
-}
-#menu {
-    width: 40px;
-    height: 40px;
-    margin-top: 15px;
-}
-.menu{
-    width: 189.5px;
-}
-.tophero {
-    display: flex;
-    margin-top: 25px;
-}
+
+/* Hero */
 .hero {
-    margin-left: 35px;
-    margin-bottom: 60px;
+}
 
+.hero-info {
+  display: flex;
+  margin-top: 25px;
 }
-.inf1{
-    margin-right: 50px;
-}
-.MyPicture{
-    margin-top: 50px;
-    width: 255px;
-}
-.about{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background: #F6F6F6;
 
+.hero-info__container {
+  margin-right: 50px;
+}
 
+.hero-info__name {
+  font-size: 25px;
+  width: 75px;
 }
-.MyInf{
-    margin: 35px;
-}
-body{
-    margin: 0px;
-}
-.skills{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-}
-.SkillsImg{
-    margin: 35px;
-}
-.skills{
-    margin-top: 60px;
-}
-.contacts{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 
+.hero-info__bio {
+  font-size: 10px;
+  width: 165px;
 }
-.ConText{
-    width: 300px;
-    margin-left: 10px;
+
+/* Menu */
+.hero-menu {
+  width: 189.5px;
 }
-.ImgConBlock{
-    display: flex;
+
+.hero-menu__icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
 }
-.ImgCon{
-    width: 65px;
-    height: 65px;
-    margin: 5px;
-    margin-top: 25px;
+
+.hero-photo {
+  margin-top: 50px;
+  width: 255px;
 }
-.ImgSkills{
-    width: 65px;
-    height: 65px;
+
+/* About */
+.about {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: #f6f6f6;
 }
-#CSS{
-    width: 65px;
-    height: 85px;
+.MyInf {
+  margin: 35px;
+}
+body {
+  margin: 0px;
+}
+.skills {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.SkillsImg {
+  margin: 35px;
+}
+.skills {
+  margin-top: 60px;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.ConText {
+  width: 300px;
+  margin-left: 10px;
+}
+.ImgConBlock {
+  display: flex;
+}
+.ImgCon {
+  width: 65px;
+  height: 65px;
+  margin: 5px;
+  margin-top: 25px;
+}
+.ImgSkills {
+  width: 65px;
+  height: 65px;
+}
+#CSS {
+  width: 65px;
+  height: 85px;
 }

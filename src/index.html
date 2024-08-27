@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles/style.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Vsevolod Porfolio</title>
   </head>
   <body>
     <header></header>
-    <main>
+    <main class="main">
+      <div class="container">
       <section class="hero">
-        <div class="tophero">
-          <div class="inf1">
-            <p id="Name">Vojt Vsevolod</p>
-            <p id="Age">HTML/CSS designer 14 years old, Budapest</p>
+          <div class="hero-info">
+            <div class="hero-info__container">
+              <p class="hero-info__name">Vojt Vsevolod</p>
+              <p class="hero-info__bio">
+                HTML/CSS designer 14 years old, Budapest
+              </p>
+            </div>
+            <div class="hero-menu">
+              <img src="menu.png" alt="hamburger" class="hero-menu__icon" />
+            </div>
           </div>
-          <div class="menu">
-            <img src="menu.png" alt="" id="menu">
-          </div>
+          <img src="picture.jpg" alt="My photo" class="hero-photo" />
         </div>
-        <img src="Picture.jpg" alt="..." class="MyPicture">
       </section>
       <section class="about">
-        <h1>
-           About me
-        </h1>
+        <h1>About me</h1>
         <div>
-          <p class="MyInf">Hi, I`m Vsevolod - HTML/CSS designer from Ukraine. I'm interested in developing web pages</p>
+          <p class="MyInf">
+            Hi, I'm Vsevolod - HTML/CSS designer from Ukraine. I'm interested in
+            developing web pages
+          </p>
           <p class="MyInf">I am studying at N-Code IT school</p>
-          <p class="MyInf">Ready to implement excellent projects with wonderful people.</p>
-        </div>
+          <p class="MyInf">
+            Ready to implement excellent projects with wonderful people.
+          </p>
       </section>
       <section class="skills">
         <h1>Skills</h1>
         <p>I work with such as</p>
         <div class="SkillsImg">
-          <img src="HTML.png" alt="" class="ImgSkills">
+          <img src="HTML.png" alt="" class="ImgSkills" />
           <p>HTML</p>
         </div>
         <div class="SkillsImg">
-          <img src="CSS.png" alt="" id="CSS">
+          <img src="CSS.png" alt="" id="CSS" />
           <p>CSS</p>
         </div>
         <div class="SkillsImg">
-          <img src="SASS.png" alt="" class="ImgSkills">
+          <img src="SASS.png" alt="" class="ImgSkills" />
           <p>SASS</p>
         </div>
       </section>
       <section class="portfolio"></section>
+      </div>
+
     </main>
     <footer class="contacts">
       <h1>Contacts</h1>
       <p class="ConText">Want to know more or just chat? You are welcom!</p>
       <div class="ImgConBlock">
-        <img src="instagram.png" alt="" class="ImgCon">
-        <img src="telegram.png" alt="" class="ImgCon">
-        <img src="viber.png" alt="" class="ImgCon">
-        <img src="discord.jpg" alt="" class="ImgCon">
+        <img src="instagram.png" alt="" class="ImgCon" />
+        <img src="telegram.png" alt="" class="ImgCon" />
+        <img src="viber.png" alt="" class="ImgCon" />
+        <img src="discord.jpg" alt="" class="ImgCon" />
       </div>
     </footer>
   </body>

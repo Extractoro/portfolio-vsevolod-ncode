@@ -1,0 +1,90 @@
+main {
+    width: 320px;
+    
+}
+#Name {
+    font: caption;
+    font-size: 25px;
+    width: 75px;
+}
+#Age {
+    font-size: 10px;
+    font: caption;
+    width: 165px;
+}
+#menu {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+.menu{
+    width: 189.5px;
+}
+.tophero {
+    display: flex;
+    margin-top: 25px;
+}
+.hero {
+    margin-left: 35px;
+    margin-bottom: 60px;
+
+}
+.inf1{
+    margin-right: 50px;
+}
+.MyPicture{
+    margin-top: 50px;
+    width: 255px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #F6F6F6;
+
+
+}
+.MyInf{
+    margin: 35px;
+}
+body{
+    margin: 0px;
+}
+.skills{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.SkillsImg{
+    margin: 35px;
+}
+.skills{
+    margin-top: 60px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.ConText{
+    width: 300px;
+    margin-left: 10px;
+}
+.ImgConBlock{
+    display: flex;
+}
+.ImgCon{
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+    margin-top: 25px;
+}
+.ImgSkills{
+    width: 65px;
+    height: 65px;
+}
+#CSS{
+    width: 65px;
+    height: 85px;
+}

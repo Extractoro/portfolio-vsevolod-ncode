@@ -9,9 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Vsevolod Porfolio</title>
@@ -29,51 +26,77 @@
               </p>
             </div>
             <div class="hero-menu">
-              <img src="menu.png" alt="hamburger" class="hero-menu__icon" />
+              <img src="./images/menu.png" alt="hamburger" class="hero-menu__icon" />
             </div>
           </div>
-          <img src="picture.jpg" alt="My photo" class="hero-photo" />
+          <img src="./images/picture.jpg" alt="My photo" class="hero-photo" />
         </div>
       </section>
       <section class="about">
-        <h1>About me</h1>
-        <div>
-          <p class="about_info">
-            Hi, I'm Vsevolod - HTML/CSS designer from Ukraine. I'm interested in
-            developing web pages
-          </p>
-          <p class="about_info">I am studying at N-Code IT school</p>
-          <p class="about_info">
-            Ready to implement excellent projects with wonderful people.
-          </p>
+        <div class="container">
+          <h1 class="about__title">About me</h1>
+          <div>
+            <p class="about__info">
+              Hi, I'm Vsevolod - HTML/CSS designer from Ukraine. I'm interested in
+              developing web pages
+            </p>
+            <p class="about__info">I am studying at N-Code IT school</p>
+            <p class="about__info">
+              Ready to implement excellent projects with wonderful people.
+            </p>
+        </div>
       </section>
       <section class="skills">
-        <h1>Skills</h1>
-        <p>I work with such as</p>
-        <div class="skills_img">
-          <img src="HTML.png" alt="" class="skills_img_show" />
-          <p>HTML</p>
-        </div>
-        <div class="skills_img">
-          <img src="CSS.png" alt="" id="css" />
-          <p>CSS</p>
-        </div>
-        <div class="skills_img">
-          <img src="SASS.png" alt="" class="skills_img_show" />
-          <p>SASS</p>
+        <div class="container">
+          <h1 class="skills__title">Skills</h1>
+          <p class="skills__paragraph">I work with such as</p>
+          <div class="skills__container">
+            <img src="./images/html.png" alt="" class="skills__img" />
+            <p>HTML</p>
+            <ul class="skills__list">
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-gray.png"/></li>
+            </ul>
+          </div>
+          <div class="skills__container">
+            <img src="./images/css.png" alt="" class="skills__img" />
+            <p>CSS</p>
+            <ul class="skills__list">
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-gray.png"/></li>
+            </ul>
+          </div>
+          <div class="skills__container">
+            <img src="./images/sass.png" alt="" class="skills__img" />
+            <p>SASS</p>
+            <ul class="skills__list">
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-black.png"/></li>
+              <li><img src="./images/star-gray.png"/></li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="portfolio"></section>
-
     </main>
-    <footer class="contacts">
-      <h1>Contacts</h1>
-      <p class="contacts_text">Want to know more or just chat? You are welcom!</p>
-      <div class="contacts_img_block">
-        <img src="instagram.png" alt="" class="contacts_img" />
-        <img src="telegram.png" alt="" class="contacts_img" />
-        <img src="viber.png" alt="" class="contacts_img" />
-        <img src="discord.jpg" alt="" class="contacts_img" />
+    <footer class="footer">
+      <div class="container">
+        <h1>Contacts</h1>
+        <p class="footer__text">Want to know more or just chat? You are welcom!</p>
+        <div class="footer__container">
+          <img src="./images/instagram.png" alt="" class="footer__img" />
+          <img src="./images/telegram.png" alt="" class="footer__img" />
+          <img src="./images/viber.png" alt="" class="footer__img" />
+          <img src="./images/discord.jpg" alt="" class="footer__img" />
+        </div>
       </div>
     </footer>
   </body>

@@ -7,18 +7,18 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  max-width: 320px;
+  width: 270px;
   margin: 0 auto;
 }
 
 /* Hero */
 .hero {
+  padding-top: 45px;
+  padding-bottom: 65px;
 }
 
 .hero-info {
   display: flex;
-  margin-top: 25px;
 }
 
 .hero-info__container {
@@ -26,15 +26,17 @@ body {
 }
 
 .hero-info__name {
-  font-size: 25px;
-  width: 75px;
-  font-family: "SUSE" , sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 800;
+  width: 165px;
+  margin-bottom: 16px;
 }
 
 .hero-info__bio {
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
   width: 165px;
-  font-family: "SUSE" , sans-serif;
 }
 
 /* Menu */
@@ -44,61 +46,93 @@ body {
 .hero-menu__icon {
   width: 40px;
   height: 40px;
-  margin-top: 15px;
 }
 
 .hero-photo {
-  margin-top: 50px;
+  margin-top: 25px;
   width: 255px;
 }
 
 /* About */
 .about {
+  padding-top: 70px;
+  padding-bottom: 70px;
   display: flex;
   flex-direction: column;
   text-align: center;
   background: #f6f6f6;
 }
-.about_info {
-  margin: 35px;
+
+.about__title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
-body {
-  margin: 0px;
+
+.about__info {
+  font-weight: 500;
+  margin-bottom: 35px;
+  font-size: 18px;
 }
+
+/* Skills */
 .skills {
   display: flex;
   text-align: center;
   flex-direction: column;
-}
-.skills_img {
-  margin: 35px;
-}
-.skills {
   margin-top: 60px;
 }
-.contacts {
+
+.skills__title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.skills__paragraph {
+  font-weight: 500;
+  margin-bottom: 35px;
+  font-size: 18px;
+}
+
+.skills__container {
+  margin-bottom: 70px;
+
+  color: #828282;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.skills__img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 25px;
+}
+
+.skills__list {
+  margin-top: 30px;
+  display: flex;
+  gap: 12px;
+}
+
+/* Footer */
+.footer {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.contacts_text{
+
+.footer__text {
   width: 300px;
   margin-left: 10px;
 }
-.contacts_img_block{
+
+.footer__container {
   display: flex;
 }
-.contacts_img {
+
+.footer__img {
   width: 65px;
-  height: 65px;
-  margin: 5px;
-  margin-top: 25px;
-}
-.skills_img_show {
-  width: 65px;
-  height: 65px;
-}
-#css {
-  width: 65px;
-  height: 85px;
 }

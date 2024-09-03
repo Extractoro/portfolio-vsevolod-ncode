@@ -28,11 +28,13 @@ body {
 .hero-info__name {
   font-size: 25px;
   width: 75px;
+  font-family: "SUSE" , sans-serif;
 }
 
 .hero-info__bio {
-  font-size: 10px;
+  font-size: 15px;
   width: 165px;
+  font-family: "SUSE" , sans-serif;
 }
 
 /* Menu */
@@ -57,7 +59,7 @@ body {
   text-align: center;
   background: #f6f6f6;
 }
-.MyInf {
+.about_info {
   margin: 35px;
 }
 body {
@@ -68,7 +70,7 @@ body {
   text-align: center;
   flex-direction: column;
 }
-.SkillsImg {
+.skills_img {
   margin: 35px;
 }
 .skills {
@@ -79,24 +81,24 @@ body {
   flex-direction: column;
   text-align: center;
 }
-.ConText {
+.contacts_text{
   width: 300px;
   margin-left: 10px;
 }
-.ImgConBlock {
+.contacts_img_block{
   display: flex;
 }
-.ImgCon {
+.contacts_img {
   width: 65px;
   height: 65px;
   margin: 5px;
   margin-top: 25px;
 }
-.ImgSkills {
+.skills_img_show {
   width: 65px;
   height: 65px;
 }
-#CSS {
+#css {
   width: 65px;
   height: 85px;
 }

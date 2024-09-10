@@ -14,9 +14,28 @@
     <title>Vsevolod Porfolio</title>
   </head>
   <body>
-    <header></header>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#footer" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="main">
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="container">
           <div class="hero-info">
             <div class="hero-info__container">
@@ -24,15 +43,17 @@
               <p class="hero-info__bio">
                 HTML/CSS designer 14 years old, Budapest
               </p>
+              <p class="hero-info__lang">Ua <span class="hero-info__lang-span">| Eng</span></p>
             </div>
             <div class="hero-menu">
               <img src="./images/menu.png" alt="hamburger" class="hero-menu__icon" />
             </div>
           </div>
-          <img src="./images/picture.jpg" alt="My photo" class="hero-photo" />
+          <div class="hero-photo"></div>
+          <!-- <img src="./images/picture.jpg" alt="My photo" class="hero-photo" /> -->
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h1 class="about__title">About me</h1>
           <div>
@@ -46,51 +67,63 @@
             </p>
         </div>
       </section>
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="container">
           <h1 class="skills__title">Skills</h1>
           <p class="skills__paragraph">I work with such as</p>
-          <div class="skills__container">
-            <img src="./images/html.png" alt="" class="skills__img" />
-            <p>HTML</p>
-            <ul class="skills__list">
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-gray.png"/></li>
-            </ul>
-          </div>
-          <div class="skills__container">
-            <img src="./images/css.png" alt="" class="skills__img" />
-            <p>CSS</p>
-            <ul class="skills__list">
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-gray.png"/></li>
-            </ul>
-          </div>
-          <div class="skills__container">
-            <img src="./images/sass.png" alt="" class="skills__img" />
-            <p>SASS</p>
-            <ul class="skills__list">
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-black.png"/></li>
-              <li><img src="./images/star-gray.png"/></li>
-            </ul>
+          <div class="skills__wrapper">
+            <div class="skills__container">
+              <img src="./images/html.png" alt="" class="skills__img" />
+              <p>HTML</p>
+              <ul class="skills__list">
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-gray.png"/></li>
+              </ul>
+            </div>
+            <div class="skills__container">
+              <img src="./images/css.png" alt="" class="skills__img" />
+              <p>CSS</p>
+              <ul class="skills__list">
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-gray.png"/></li>
+              </ul>
+            </div>
+            <div class="skills__container">
+              <img src="./images/sass.png" alt="" class="skills__img" />
+              <p>SASS</p>
+              <ul class="skills__list">
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-gray.png"/></li>
+              </ul>
+            </div>
+            <div class="skills__container">
+              <img src="./images/sass.png" alt="" class="skills__img" />
+              <p>SASS</p>
+              <ul class="skills__list">
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-black.png"/></li>
+                <li><img src="./images/star-gray.png"/></li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
-      <section class="portfolio"></section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <h1 class="footer__title">Contacts</h1>
-        <p class="footer__text">Want to know more or just chat? You are welcom!</p>
+        <p class="footer__text">Want to know more or just chat? You are welcome!</p>
         <button class="footer__button">
           <p>Send message</p>
         </button>

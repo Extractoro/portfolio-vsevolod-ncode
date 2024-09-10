@@ -11,6 +11,11 @@ body {
   margin: 0 auto;
 }
 
+/* Header */
+.header {
+  display: none;
+}
+
 /* Hero */
 .hero {
   padding-top: 45px;
@@ -48,9 +53,17 @@ body {
   height: 40px;
 }
 
+.hero-info__lang {
+  display: none;
+}
+
 .hero-photo {
   margin-top: 25px;
   width: 255px;
+  height: 340px;
+  background-image: url("../images/picture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* About */
@@ -114,6 +127,7 @@ body {
 .skills__list {
   margin-top: 30px;
   display: flex;
+  justify-content: center;
   gap: 12px;
 }
 
@@ -125,8 +139,7 @@ body {
 }
 
 .footer__text {
-  width: 300px;
-  margin-left: 10px;
+  width: 100%;
   font-size: 18px;
   font-weight: 400;
   margin-top: 20px;
@@ -144,20 +157,117 @@ body {
   width: 40px;
   height: 40px;
 }
-.footer__title{
+.footer__title {
   font-size: 34px;
   font-weight: 600;
 }
-.footer__button{
+.footer__button {
   background-color: black;
   color: white;
-  width: 300px;
+  width: 100%;
   height: 35px;
   font-weight: 600;
   border-radius: 50px;
   margin-top: 30px;
 }
-.footer__bottom__text{
+.footer__bottom__text {
   color: #828282;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .header {
+    display: flex;
+    align-items: center;
+    height: 88px;
+    background-color: #fff;
+    border-bottom: 1px solid #828282;
+  }
+
+  /* Nav */
+  .nav {
+    width: 100%;
+  }
+
+  .nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav__link {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  /* Hero */
+  .hero-info {
+    width: 100%;
+  }
+
+  .hero-menu__icon {
+    display: none;
+  }
+
+  .hero-info__lang {
+    display: block;
+    rotate: -90deg;
+    font-size: 16px;
+    font-weight: 800;
+    color: #828282;
+  }
+
+  .hero-info__lang-span {
+    color: #000;
+  }
+
+  .hero-info__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .hero-info__bio {
+    width: 203px;
+  }
+
+  .hero-photo {
+    width: 100%;
+    height: 400px;
+    background-position-y: 15%;
+  }
+
+  /* Skills */
+  .skills {
+    padding-bottom: 80px;
+  }
+
+  .skills__wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  .skills__container {
+    margin: 0;
+  }
+
+  /* Footer */
+  .footer__button {
+    width: 200px;
+  }
 }
